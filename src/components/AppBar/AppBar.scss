@@ -1,0 +1,12 @@
+.botes-nav {
+  background: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  height: var(--app-bar-height);
+  .botes-nav__logo {
+    padding-left: 10px;
+    img {
+      height: var(--app-bar-height);
+    }
+  }
+}

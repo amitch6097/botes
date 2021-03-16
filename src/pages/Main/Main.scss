@@ -1,0 +1,21 @@
+.botes-page-my-books__content {
+  // background: rgb(230, 230, 230);
+  width: 100%;
+  height: 100%;
+  // padding: 1rem;
+
+  .botes-page-my-books__content-list-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .botes-page-my-books__content-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    margin: 4rem;
+  }
+}
